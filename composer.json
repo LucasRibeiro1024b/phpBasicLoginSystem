@@ -5,8 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Lucas\\PhpBasicLoginSystem\\": "src/"
-        }
+            "Lucas\\BasicLoginSystem\\": "src/"
+        },
+        "files": [ 
+            "src/settings.php",
+            "src/functions.php"
+        ]
     },
     "authors": [
         {
